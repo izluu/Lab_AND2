@@ -132,7 +132,6 @@ public class SanPhamAdapter extends RecyclerView.Adapter<SanPhamAdapter.SanPhamV
         edtContent.setText(sp.getContent());
         edtDate.setText(sp.getDate());
         edtStyle.setText(sp.getStyle());
-
         edtStyle.setOnClickListener(v -> {
             String[] str = {"Khó", "Bình Thường", "Dễ"};
             AlertDialog.Builder dialog1 = new AlertDialog.Builder(context);
